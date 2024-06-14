@@ -29,8 +29,7 @@ h1{
 {
     display: flex;
     justify-content: space-evenly;
-    width: 50%;
-    
+    width: 40%;
 }
 p{
     padding: 9px;
@@ -87,9 +86,6 @@ li{
     display: flex;
 
 }
-.Eduli{
-    width: 90vw;
-}
 .Contact
 {
     border-width: 20px;
@@ -135,8 +131,6 @@ li{
 .Contactform .inputbox
 {
     position: relative;
-    width: 25%;
-    margin-top: 10px;
 }
 input
 {
@@ -146,6 +140,11 @@ input
 #p1
 {
     width: 30%;
+}
+.info
+{
+    display: flex;
+    justify-content: space-between;
 }
 @media (max-width:500px) {
         
@@ -183,4 +182,9 @@ input
     {
         width: 80%;
     }
+    .Options
+{
+    display: flex;
+    justify-content: space-evenly;
+}
 }
