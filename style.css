@@ -6,7 +6,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     background-color: antiquewhite;
-    height: 70vh;
+    padding: 15px;
     align-items: center;
     text-align: justify;
 
@@ -142,4 +142,33 @@ input
 {
     width: 250px;
     padding: 5px;
+}
+@media (max-width:500px) {
+        
+    .Options{
+        display: flex;
+        flex-direction: column;
+    }
+    .divIntro
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .Skill
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .info
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .Contactform
+    {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+     
 }
