@@ -143,6 +143,10 @@ input
     width: 250px;
     padding: 5px;
 }
+#p1
+{
+    width: 30%;
+}
 @media (max-width:500px) {
         
     .Options{
@@ -159,6 +163,11 @@ input
         display: flex;
         flex-direction: column;
     }
+    .Skill ul
+    {
+        display: flex;
+        justify-content: space-evenly;
+    }
     .info
     {
         display: flex;
@@ -170,5 +179,8 @@ input
         flex-direction: column;
         width: auto;
     }
-     
+    #p1
+    {
+        width: 80%;
+    }
 }
